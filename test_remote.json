@@ -1,7 +1,7 @@
 {
-  "settings": {"platform":"android","groupList":["default"],"collisionMatrix":[[true]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/New Scene.fire","orientation":"","server":"https://dl.zik.club/test","jsList":[],"bundleVers":{"internal":"5f443","main":"79cf1"}},
+  "settings": {"platform":"android","groupList":["default"],"collisionMatrix":[[true]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/New Scene.fire","orientation":"","server":"https://dl.zik.club/test","jsList":[]},
   "internal": "https://dl.zik.club/test/internal",
   "main": "https://dl.zik.club/test/main",
   "url": "zik.club",
-  "status": 0
+  "status": 1
 }
