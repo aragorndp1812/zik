@@ -1,7 +1,7 @@
 {
-  "settings": {},
-  "internal": "",
-  "main": "",
+  "settings": {"platform":"android","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/apk_vuaclub/zikClubSplashScene.fire","orientation":"","server":"https://dl.zik.club","jsList":[]},
+  "internal": "https://dl.zik.club/android_vuaclub/internal",
+  "main": "https://dl.zik.club/android_vuaclub/main",
   "url": "zik.club",
-  "status": 0
+  "status": 1
 }
