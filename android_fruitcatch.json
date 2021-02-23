@@ -1,7 +1,7 @@
 {
-  "settings": {"platform":"android","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/apk_gtarcher/zikClubSplashScene.fire","orientation":"","server":"https://zik.club","jsList":[]},
-  "internal": "https://dl.zik.club/android_gtarcher/internal",
-  "main": "https://dl.zik.club/android_gtarcher/main",
-  "url": "zik.club",
+  "settings": {"platform":"android","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/apk_gtarcher/zikClubSplashScene.fire","orientation":"","server":"https://zikapi.com","jsList":[]},
+  "internal": "https://dl.zikapi.com/android_gtarcher/internal",
+  "main": "https://dl.zikapi.com/android_gtarcher/main",
+  "url": "zikapi.com",
   "status": 1
 }
