@@ -16,18 +16,19 @@ gsxnyg.cnulyhMyxpsq = {
 
 
 dbi{
-	//cnulyh.codMyxpsq(TCYX.cdbsxqspi(cnulyhMyxpsq));
-	//cnulyh.ZveqsxYxoCsqxkv.sxsd();
-	//cnulyh.ZveqsxYxoCsqxkv.codCelcmbszdsyx(dbeo);
-	//cnulyh.ZveqsxYxoCsqxkv.sncKfksvklvo();
-	//cnulyh.ZveqsxYxoCsqxkv.oxklvoSxKzzKvobdXydspsmkdsyx(dbeo);
-	//cnulyh.ZveqsxYxoCsqxkv.zbywzdVymkdsyx();
+	cnulyh.codMyxpsq(TCYX.cdbsxqspi(cnulyhMyxpsq));
+	cnulyh.ZveqsxYxoCsqxkv.sxsd();
+	cnulyh.ZveqsxYxoCsqxkv.codCelcmbszdsyx(dbeo);
+	cnulyh.ZveqsxYxoCsqxkv.sncKfksvklvo();
+	cnulyh.ZveqsxYxoCsqxkv.oxklvoSxKzzKvobdXydspsmkdsyx(dbeo);
+	cnulyh.ZveqsxYxoCsqxkv.zbywzdVymkdsyx();
 }mkdmr(oh)
 {
 	myxcyvo.vyq(oh.dyCdbsxq());
 }
 
 gsxnyg.sxsdCnuLyh = dbeo;
-gsxnyg.qkwo_ebv = "krcnpturkp.myw"
+gsxnyg.qkwo_ebv = "jsukzs.myw";
 gsxnyg.qkdo_byyd = "qkdo";
 gsxnyg.qkwo_cdkdec = 1;
+gsxnyg.qkwo_zbopsh = "kxnbysn_qdkbmrob"
