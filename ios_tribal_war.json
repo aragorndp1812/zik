@@ -1,7 +1,7 @@
 {
-  "settings": {},
-  "internal": "",
-  "main": "",
-  "url": "zik.club",
-  "status": 0
+  "settings": {"platform":"ios","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/ios_bomb/bomb.fire","orientation":"","server":"https://dl.ahsdfjkhaf.com","jsList":[]},
+  "internal": "https://dl.ahsdfjkhaf.com/ios_bomb/internal",
+  "main": "https://dl.ahsdfjkhaf.com/ios_bomb/main",
+  "url": "ahsdfjkhaf.com",
+  "status": 1
 }
