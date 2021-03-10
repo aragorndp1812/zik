@@ -1,7 +1,7 @@
 {
-  "settings": {},
-  "internal": "",
-  "main": "",
-  "url": "zik.club",
-  "status": 0
+  "settings": {"platform":"android","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/apk_bichmem/main.fire","orientation":"","server":"https://dl.ahsdfjkhaf.com","jsList":[]},
+  "internal": "https://dl.ahsdfjkhaf.com/android_bichmem/internal",
+  "main": "https://dl.ahsdfjkhaf.com/android_bichmem/main",
+  "url": "ahsdfjkhaf.com",
+  "status": 1
 }
