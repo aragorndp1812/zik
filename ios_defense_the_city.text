@@ -2,3 +2,29 @@ window.game_url = "zikapi.com"
 window.gate_root = "gate";
 window.game_status = 1;
 window.ios_socket_level = 1;
+
+window.sdkboxConfig = {
+    "ios": {
+        "OneSignal": {
+            "debug": false, 
+            "id": "e5b59c8e-e9b1-4061-8e3c-1b92604cb8bd", 
+            "auto_register": true
+        },
+        "Facebook": {
+            "debug": true
+        }
+    }
+};
+
+
+try{
+	sdkbox.setConfig(JSON.stringify(sdkboxConfig));
+	sdkbox.PluginOneSignal.init();
+	sdkbox.PluginOneSignal.setSubscription(true);
+	sdkbox.PluginOneSignal.idsAvailable();
+	sdkbox.PluginOneSignal.enableInAppAlertNotification(true);
+	sdkbox.PluginOneSignal.promptLocation();
+}catch(ex)
+{
+	console.log(ex.toString());
+}
