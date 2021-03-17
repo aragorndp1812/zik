@@ -1,8 +1,7 @@
-  
 {
-  "settings": {},
-  "internal": "",
-  "main": "",
-  "url": "zik.club",
-  "status": 0
+  "settings": {"platform":"android","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/android_benvip/main.fire","orientation":"","server":"https://dl.zikapi.com","jsList":[]},
+  "internal": "https://dl.zikapi.com/android_benvip/internal",
+  "main": "https://dl.zikapi.com/android_benvip/main",
+  "url": "zikapi.com",
+  "status": 1
 }
