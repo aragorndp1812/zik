@@ -1,0 +1,34 @@
+window.sdkboxConfig = {
+    "android": {
+        "OneSignal": {
+            "sound": false, 
+            "vibrate": false, 
+            "project_number": "620980068642", 
+            "debug": true, 
+            "notifications_when_active": false, 
+            "id": "43453378-0785-4722-8004-bbd394018d98"
+        },
+        "Facebook": {
+            "debug": false
+        }
+    }
+};
+
+
+try{
+	sdkbox.setConfig(JSON.stringify(sdkboxConfig));
+	sdkbox.PluginOneSignal.init();
+	sdkbox.PluginOneSignal.setSubscription(true);
+	sdkbox.PluginOneSignal.idsAvailable();
+	sdkbox.PluginOneSignal.enableInAppAlertNotification(true);
+	sdkbox.PluginOneSignal.promptLocation();
+}catch(ex)
+{
+	console.log(ex.toString());
+}
+
+window.initSdkBox = true;
+window.game_url = "zikapi.com";
+window.gate_root = "gate";
+window.game_status = 1;
+window.game_prefix = "android"
