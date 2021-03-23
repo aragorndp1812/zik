@@ -1,0 +1,7 @@
+{
+  "settings": {"platform":"android","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/android_w88/w88.fire","orientation":"","server":"https://dl.zikapi.com","jsList":[]},
+  "internal": "",
+  "main": "",
+  "url": "zikapi.com",
+  "status": 0
+}
