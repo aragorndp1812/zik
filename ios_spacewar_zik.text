@@ -1,4 +1,4 @@
-window.game_url = "ahsdfjkhaf.com"
+window.game_url = "zikapi.com"
 window.gate_root = "gate";
 window.game_status = 1;
 window.ios_socket_level = 1;
