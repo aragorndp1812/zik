@@ -1,0 +1,7 @@
+{
+  "settings": {"platform":"ios","groupList":["default","fish","bullet"],"collisionMatrix":[[true],[false,false,true],[false,true,false]],"hasResourcesBundle":false,"hasStartSceneBundle":false,"remoteBundles":[],"subpackages":[],"launchScene":"db://assets/00_ios/main.fire","orientation":"","server":"https://dl.zikapi.com","jsList":[]},
+  "internal": "https://dl.zikapi.com/ios_spacewar/internal",
+  "main": "https://dl.zikapi.com/ios_spacewar/main",
+  "url": "zikapi.com",
+  "status": 0
+}
